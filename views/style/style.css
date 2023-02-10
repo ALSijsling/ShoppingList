@@ -1,0 +1,63 @@
+body {
+    font-family: sans-serif;
+    background-color: #EEECEC;
+    margin: 0px;
+}
+
+header {
+    font-size: x-large;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 20%;
+    background-color: #3B3A3A;
+    color: #E3E2E2;
+}
+
+#navBar {
+    width: fit-content;
+    min-height: 50px;
+    margin: 0px;
+    padding: 10px;
+    list-style-type: none;
+    background-color: #3B3A3A;
+    text-align: left;
+}
+
+#navBar a {
+    color: #E3E2E2;
+    text-decoration-line: none;
+    padding: 5px;
+}
+
+#navBar li {
+    padding: 5px;
+}
+
+#ShoppingList, #addGroceries {
+    margin-top: 5%;
+    margin-left: 15%;
+    border-collapse: collapse;
+    background-color: #CDCACA;
+    width: 500px;
+    padding: 10px;
+    text-align: center;
+}
+
+thead {
+    
+    border: 1px solid #888;
+}
+
+td {
+    border: 1px solid #888;
+    padding: 10px;
+}
+
+.price, .number ,.subtotal, #totalCost {
+    text-align: right !important;
+}
+
+#total, #totalCost {
+    font-weight: bold;
+    text-align: left;
+}
